@@ -1,7 +1,11 @@
+import React from 'react'
+import CarpItChat from './components/CarpItChat'
+
 export default function App() {
     return (
-      <h1 className="text-3xl font-bold underline text-blue-800">
-        Hello world!
-      </h1>
+      <div>
+        <h1 className="font-extrabold text-3xl">Carp.IT</h1>
+        <CarpItChat />
+      </div>
     )
   }
